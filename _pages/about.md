@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='www.uab.cat'>Universitat Autònoma de Barcelona </a>.<a href='www.cvc.uab.cat'>Computer Vision Center </a>
+subtitle: <a href='www.uab.cat'>Universitat Autònoma de Barcelona. </a><a href='www.cvc.uab.cat'> Computer Vision Center </a>
 
 profile:
   align: right
