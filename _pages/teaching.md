@@ -7,7 +7,7 @@ nav: true
 nav_order: 6
 ---
 
-Post-graduate
+**Post-graduate**
 
 Joint Master: Universitat Autònoma de Barcelona, Universitat Oberta de Catalunya, Universitat Politècnica de Catalunya, Universitat Pompeu Fabra
 
@@ -34,12 +34,13 @@ Universitat Autònoma de Barcelona, Escola d'Enginyeria:
 
 
 University of East Anglia, Computer Sciences School:
+
     Computer Vision for Computational Photography (both undergraduate and masters)
         2010-2011: 25 hours.
 
 
 
-Undergraduate
+**Undergraduate**
 
 Universitat Autònoma de Barcelona, Escola d'Enginyeria:
 
