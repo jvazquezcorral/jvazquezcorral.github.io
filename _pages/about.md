@@ -10,10 +10,10 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Edifici O</p>
-    <p>1Carrer de les Sitges s/n </p>
+    <p>Carrer de les Sitges s/n </p>
     <p>Cerdanyola del Vallès, Catalonia, Spain, 08193</p>
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
