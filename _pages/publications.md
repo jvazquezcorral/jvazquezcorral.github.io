@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: My publications
-description:
+description: Few pdf links may be broken. I am fixing them slowly.
 nav: true
 nav_order: 2
 ---
