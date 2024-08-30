@@ -24,6 +24,6 @@ constancy to color stabilization, color characterization, color gamut mapping, h
 image dehazing, image denoising, and vision color properties such as unique hue prediction and color naming.
 I have published 31 articles in top-ranked journals (26 of them as either first or second author), including
 IEEE-TPAMI, IEEE-TIP, PR, and SIAM-SIIMS. I have an European Patent granted -and a second application
-in process-, and research experience in cutting-edge research labs in Spain, UK, Canda, and Switzerland, working
+in process-, and research experience in cutting-edge research labs in Spain, UK, Canada, and Switzerland, working
 in high-profile research projects. I have extensive experience in teaching in both undergraduate and master
-courses in Spain and the UK, with more of 1000 hours of teaching already performed.
+courses in Spain and the UK, with more of 1100 hours of teaching already performed.
