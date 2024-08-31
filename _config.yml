@@ -299,14 +299,15 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Vazquez-Corral]
+ # first_name: [Albert, A.]
 
   style: apa
   locale: en
 
   source: /_bibliography/
   bibliography: papers.bib
+  bibliography: paper2.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
