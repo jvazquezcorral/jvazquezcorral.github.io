@@ -1,16 +1,14 @@
 {% if site.enable_google_analytics %}
-  <!-- Analytics -->
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() {
-      dataLayer.push(arguments);
+      window.dataLayer.push(arguments);
     }
     gtag('js', new Date());
     gtag('config', '{{ site.google_analytics }}');
   </script>
-  <script defer src="{{ '/assets/js/google-analytics-setup.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
 {% if site.enable_cronitor_analytics %}
   <!-- Cronitor RUM -->
@@ -21,6 +19,9 @@
       function () {
         (window.cronitor.q = window.cronitor.q || []).push(arguments);
       };
+    cronitor('config', { clientKey: '{{site.cronitor_analytics}}' });
+  </script>
+{% endif %}
     cronitor('config', { clientKey: '{{site.cronitor_analytics}}' });
   </script>
 {% endif %}
