@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "[Color Group](https://color.cvc.uab.cat/) | [Computer Vision Center](http://www.cvc.uab.cat) | [Universitat Autònoma de Barcelona](http://www.uab.cat)"
+subtitle: '<a href="https://color.cvc.uab.cat/">Color Group</a> | <a href="http://www.cvc.uab.cat">Computer Vision Center</a> | <a href="http://www.uab.cat">Universitat Autònoma de Barcelona</a>'
 
 profile:
   align: right
