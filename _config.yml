@@ -629,8 +629,3 @@ jsonresume:
   - interests
   - references
 
-  analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "G-27MKYMLQ50"
-    anonymize_ip: false # default 
