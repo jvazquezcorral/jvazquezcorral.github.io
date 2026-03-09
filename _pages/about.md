@@ -2,7 +2,9 @@
 layout: about
 title: about
 permalink: /
-subtitle:[Color Group](https://color.cvc.uab.cat/) | [Computer Vision Center](http://www.cvc.uab.cat) | [Universitat Autònoma de Barcelona](http://www.uab.cat)
+subtitle: [Color Group](https://color.cvc.uab.cat/) 
+[Computer Vision Center](http://www.cvc.uab.cat) 
+[Universitat Autònoma de Barcelona](http://www.uab.cat)
 
 profile:
   align: right
