@@ -48,8 +48,10 @@ body {
 
 h1, h2, h3, h4,
 .post-title, .page-title {
-  font-family: "Newsreader", Georgia, serif;
-  font-weight: 500;
+  font-family: "Fraunces", Georgia, serif;
+  font-optical-sizing: auto;
+  font-variation-settings: "SOFT" 0, "WONK" 1;
+  font-weight: 600;
   letter-spacing: -0.01em;
 }
 
