@@ -1,0 +1,82 @@
+// ---------------------------------------------------------
+// Custom theme: "Chromatic Neutral"
+// Minimal, scholarly, with one quiet nod to color science.
+//
+// HOW TO USE
+// 1. Save this file as _sass/_custom-theme.scss in your repo.
+// 2. At the very bottom of assets/css/main.scss, add:
+//      @import "custom-theme";
+//    (must come AFTER the existing al-folio imports so it wins)
+// 3. Add the Google Fonts link from fonts-snippet.html (see guide)
+//    to your <head> include.
+// 4. Optionally add <hr class="spectral-divider"> under page/post
+//    titles in _layouts/page.html and _layouts/post.html.
+// ---------------------------------------------------------
+
+:root {
+  --global-bg-color: #faf9f6;
+  --global-code-bg-color: #f2f1ec;
+  --global-text-color: #1f2223;
+  --global-text-color-light: #5b6366;
+  --global-theme-color: #2e5266;
+  --global-hover-color: #c1440e;
+  --global-footer-text-color: #5b6366;
+  --global-footer-link-color: #1f2223;
+  --global-divider-color: rgba(31, 34, 35, 0.12);
+  --global-card-bg-color: #f2f1ec;
+}
+
+html[data-theme="dark"] {
+  --global-bg-color: #14171a;
+  --global-code-bg-color: #1c2024;
+  --global-text-color: #e6e6e1;
+  --global-text-color-light: #9aa3a6;
+  --global-theme-color: #7fa8bd;
+  --global-hover-color: #e08b56;
+  --global-footer-text-color: #9aa3a6;
+  --global-footer-link-color: #e6e6e1;
+  --global-divider-color: rgba(255, 255, 255, 0.12);
+  --global-card-bg-color: #1c2024;
+}
+
+// ---- Type ----
+body {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+
+h1, h2, h3, h4,
+.post-title, .page-title {
+  font-family: "Newsreader", Georgia, serif;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+.navbar, .post-meta, .caption, figcaption,
+.bibliography .abbr, .bibliography .year {
+  font-family: "IBM Plex Mono", Menlo, monospace;
+  letter-spacing: 0.02em;
+  font-size: 0.85rem;
+}
+
+// ---- Layout: narrower, journal-like reading column ----
+.post, .page-content, .container {
+  max-width: 760px;
+}
+
+// ---- Signature element ----
+// A quiet nod to color-opponent vision (blue <-> orange),
+// used only under page/section titles — not decoration everywhere.
+.spectral-divider {
+  height: 1px;
+  border: none;
+  margin: 1.5rem 0 2rem;
+  background: linear-gradient(
+    90deg,
+    var(--global-theme-color) 0%,
+    var(--global-divider-color) 50%,
+    var(--global-hover-color) 100%
+  );
+  opacity: 0.55;
+}
