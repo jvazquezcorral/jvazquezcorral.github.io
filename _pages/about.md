@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: '<a href="https://color.cvc.uab.cat/">Color Group</a> | <a href="http://www.cvc.uab.cat">Computer Vision Center</a> | <a href="http://www.uab.cat">Universitat Autònoma de Barcelona</a>'
+subtitle: Group Leader @'<a href="https://color.cvc.uab.cat/">Color Group</a> | <a href="http://www.cvc.uab.cat">Computer Vision Center</a> | <a href="http://www.uab.cat">Universitat Autònoma de Barcelona</a>'
 
 profile:
   align: right
