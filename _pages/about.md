@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an Associate Professor at Universitat Autònoma de Barcelona and a Research Scientist at the Computer Vision Center. 
+I am an Associate Professor at Universitat Autònoma de Barcelona and a Research Scientist at the Computer Vision Center, where I lead the Color Group. 
 I have developed novel approaches to solve different problems ranging from color
 constancy to color stabilization, color characterization, color gamut mapping, high dynamic range imaging,
 image dehazing, image denoising, and vision color properties such as unique hue prediction and color naming.
