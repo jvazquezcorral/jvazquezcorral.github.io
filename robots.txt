@@ -1,4 +1,2 @@
 User-agent: *
 Disallow:
-
-Sitemap: https://jvazquezcorral.github.io/sitemap.xml
